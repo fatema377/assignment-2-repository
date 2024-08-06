@@ -1,0 +1,66 @@
+@media screen and (min-width:993px) and (max-width:1399px){
+    nav{
+        padding: 10px 80px;
+    }
+    nav > ul{
+        display: flex;
+        align-items: center;
+        /* gap: 25px; */
+        list-style: none;
+        padding: 15px 1px;
+        background: #211f1f;
+        border-radius: 25px;
+        border: 2px solid black;
+    }
+    .nav-menu{
+        text-decoration: none;
+        padding: 15px 25px;
+        color: wheat;
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    .home{
+        background: tomato;
+        padding: 15px 25px;
+        border-radius: 25px ;
+    }
+    .nav-menu:hover{
+        background-color: tomato;
+        border-radius: 25px;
+        padding: 15px 25px;
+    }
+    .about{
+        padding: 15px 25px;
+    }
+    .home:hover{
+        background-color: rgb(237, 114, 190);
+    }
+    .list-icon{
+        display: none;
+    }
+    
+}
+/* banner style */
+
+
+
+/* footer */
+
+.footer{
+    padding:50px 100px;
+    background-color: #211f1fc6;
+    margin-top: 30px;
+    border-radius: 35px;
+}
+.fot-item{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.673);
+}
+.footer-text{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+}
+
