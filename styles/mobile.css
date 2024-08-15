@@ -277,7 +277,8 @@ input::placeholder{
 
 .footer{
    padding:10px;
-   width: 98%;
+   width: 99%;
+   padding-left: 15px;
 }
 .footer-text{
    display: grid;
